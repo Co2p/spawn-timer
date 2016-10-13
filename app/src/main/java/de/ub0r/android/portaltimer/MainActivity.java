@@ -89,8 +89,7 @@ public class MainActivity extends Activity implements OnClickListener {
 					.getDefaultSharedPreferences(this);
 			if (p.getBoolean("start_ingress", false)) {
 				try {
-					Intent i = getPackageManager().getLaunchIntentForPackage(
-							INGRESS_PACKAGE);
+					Intent i = getPackageManager().getLaunchIntentForPackage(INGRESS_PACKAGE);
 					i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 					startActivity(i);
 					UpdateReceiver.trigger(this);
@@ -100,7 +99,19 @@ public class MainActivity extends Activity implements OnClickListener {
 				} catch (ActivityNotFoundException e) {
 					Log.e(TAG, "unable to launch intent", e);
 				}
-			} else if (p.getBoolean("hide_app", false)) {
+			} else if (p.getBoolean("start_pokemon", false)) {
+				try {
+					Intent i = getPackageManager().getLaunchIntentForPackage(POKEMON_PACKAGE);
+					i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+					startActivity(i);
+					UpdateReceiver.trigger(this);
+					finish();
+				} catch (NullPointerException e) {
+					Log.e(TAG, "unable to launch intent", e);
+				} catch (ActivityNotFoundException e) {
+					Log.e(TAG, "unable to launch intent", e);
+				}
+			}else if (p.getBoolean("hide_app", false)) {
 				UpdateReceiver.trigger(this);
 				finish();
 			}
