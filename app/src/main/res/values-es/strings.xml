@@ -50,9 +50,11 @@
     <string name="license">Licencia</string>
     <string name="source">Código Fuente</string>
     <string name="more_apps">Más Aplicaciones</string>
-    <string name="more_apps_summary">Más aplicaciones de Felix Bechstein</string>
     <string name="donate">Donar</string>
     <string name="close">Cerrar aplicación</string>
     <string name="close_summary">Desliza la notificación para cerrar la aplicación completamente</string>
+    <string name="start_pokemon_summary_off">Mostrar Portal-Timer</string>
+    <string name="start_pokemon">Iniciar Pokemon Go</string>
+    <string name="start_pokemon_summary_on">Iniciar Pokemon Go automaticamente y ocultar Portal-Timer</string>
 
 </resources>

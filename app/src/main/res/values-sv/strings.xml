@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel_tap">Avbryt timer</string>
+    <string name="cancel_tap_summary_off">Tryck på en aktiv timer i notifikationsfältet för att starta om</string>
+    <string name="cancel_tap_summary_on">Tryck på en aktiv timer i notifikationsfältet för att avbryta</string>
+    <string name="close">Att stänga appen</string>
+    <string name="close_summary">Dra bort notisen från notifikationsfältet för att avsluta appen</string>
+    <string name="license">Lisens</string>
+    <string name="more_apps">Fler appar</string>
+    <string name="hide_app_summary_on">Dölj huvudfönstret</string>
+    <string name="hide_app_summary_off">Visa huvudfönstret</string>
+    <string name="hide_app">Dölj appen vid start</string>
+    <string name="help">Hjälp</string>
+    <string name="donate">Donera</string>
+    <string name="cooldown_title"></string>
+    <string name="vibrator">Vibrator</string>
+    <string name="vibrator_summary_off">Vibratorn är avstängd</string>
+    <string name="vibrator_summary_on">Vibration vid notifikation</string>
+    <string name="start_pokemon_summary_on">Starta Pokemon Go automatiskt och dölj denna app</string>
+    <string name="start_pokemon_summary_off">Visa denna app</string>
+    <string name="start_pokemon">Starta Pokemon Go</string>
+    <string name="info">Info</string>
+    <string name="notification">Notis</string>
+    <string name="notification_summary">Notisljud</string>
+    <string name="notification_text">%1$s - %2$s - %3$s</string>
+    <string name="parse_error">Kunde inte läsa in %s</string>
+    <string name="reset">Återställ</string>
+    <string name="settings">Inställningar</string>
+    <string name="source">Källkod</string>
+    <string name="start">Starta</string>
+    <string name="start_ingress">Starta Ingress</string>
+    <string name="start_ingress_summary_off">Visa denna app</string>
+    <string name="start_ingress_summary_on">Starta Ingress automatiskt och dölj denna app</string>
+</resources>
