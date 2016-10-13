@@ -35,7 +35,6 @@ import android.os.PowerManager;
 import android.os.SystemClock;
 import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
-import android.support.v4.content.IntentCompat;
 import android.util.Log;
 import android.widget.RemoteViews;
 
@@ -43,8 +42,7 @@ public class UpdateReceiver extends BroadcastReceiver {
 
 	private static final String TAG = "portal-timer/ur";
 
-	private static long[] VIBRATE = new long[] { 100, 500, 500, 500, 500, 500,
-			500 };
+	private static long[] VIBRATE = new long[] { 1, 200, 100, 200, 100 };
 
 	private long mNow = 0L;
 	private long mNextTarget = 0L;
@@ -155,15 +153,13 @@ public class UpdateReceiver extends BroadcastReceiver {
 			}
 			String n = p.getString("notification", null);
 			if (n == null) { // default
-				b.setSound(RingtoneManager
-						.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION));
+				b.setSound(RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION));
 			} else if (n.length() > 1) {
 				try {
 					b.setSound(Uri.parse(n));
 				} catch (Exception e) {
 					Log.e(TAG, "invalid notification uri", e);
-					b.setSound(RingtoneManager
-							.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION));
+					b.setSound(RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION));
 				}
 			} // else: silent
 			nm.notify(0, b.build());

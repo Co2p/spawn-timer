@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="accent_material_dark">#40ffff</color>
-    <color name="primary_dark_material_dark">#2c65c1</color>
-    <color name="primary_material_dark">#2176ba</color>
+    <color name="accent_valor">#d50000</color>
+    <color name="primary_dark_valor">#D32F2F</color>
+    <color name="primary_valor">#F44336</color>
+
+    <color name="accent_mystic">#0091ea</color>
+    <color name="primary_dark_mystic">#1976D2</color>
+    <color name="primary_mystic">#2196F3</color>
+
+    <color name="accent_instinct">#ffab00</color>
+    <color name="primary_dark_instinct">#FFA000</color>
+    <color name="primary_instinct">#FFC107</color>
+
 </resources>
