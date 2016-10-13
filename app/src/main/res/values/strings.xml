@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Felix Bechstein -->
+<!--
+		This file is part of Portal Timer. This program is free software; you can
+		redistribute it and/or modify it under the terms of the GNU General
+		Public License as published by the Free Software Foundation; either
+		version 3 of the License, or (at your option) any later version.
+-->
+<!--
+		This program is distributed in the hope that it will be useful, but
+		WITHOUT ANY WARRANTY; without even the implied warranty of
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+		General Public License for more details. You should have received a
+		copy of the GNU General Public License along with this program; If
+		not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <string name="app_name">Portal Timer</string>
+    <string name="base_time" translatable="false">0:00</string>
+    <string name="cooldown" translatable="false">5:00</string>
+    <string name="start">Start</string>
+    <string name="reset">Reset</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="info">Info</string>
+    <string name="start_ingress">Start Ingress</string>
+    <string name="start_ingress_summary_on">Start Ingress automatically and hide this app</string>
+    <string name="start_ingress_summary_off">Show this app</string>
+    <string name="hide_app">Hide app on start</string>
+    <string name="hide_app_summary_on">Hide main screen</string>
+    <string name="hide_app_summary_off">Show main screen</string>
+    <string name="notification">Notification</string>
+    <string name="notification_summary">Notification sound</string>
+    <string name="vibrator">Vibrator</string>
+    <string name="vibrator_summary_on">Vibrate on notification</string>
+    <string name="vibrator_summary_off">Vibrator is turned off</string>
+    <string name="cancel_tap">Timer Cancel</string>
+    <string name="cancel_tap_summary_on">Tap an active timer in notification to cancel</string>
+    <string name="cancel_tap_summary_off">Tap an active timer in notification to restart</string>
+    <string name="cooldown_title">Cooldown timers</string>
+    <string name="cooldown_0">Cooldown 1</string>
+    <string name="cooldown_1">Cooldown 2</string>
+    <string name="cooldown_2">Cooldown 3</string>
+    <string name="cooldown_3">Cooldown 4</string>
+    <string name="cooldown_0_summary">Cooldown time for first timer</string>
+    <string name="cooldown_1_summary">Cooldown time for second timer</string>
+    <string name="cooldown_2_summary">Cooldown time for third timer</string>
+    <string name="cooldown_3_summary">Cooldown time for fourth timer</string>
+    <string name="parse_error">Unable to parse input: %s</string>
+    <string name="notification_text">%1$s - %2$s - %3$s</string>
+    <string name="license">License</string>
+    <string name="license_summary">GPLv3</string>
+    <string name="license_url">http://www.gnu.org/licenses/gpl-3.0.txt</string>
+    <string name="source">Source code</string>
+    <string name="source_url" translatable="false">https://github.com/felixb/portal-timer/</string>
+    <string name="more_apps">More apps</string>
+    <string name="more_apps_summary">More apps from Felix Bechstein</string>
+    <string name="more_apps_url" translatable="false">https://play.google.com/store/apps/developer?id=Felix+Bechstein</string>
+    <string name="donate">Donate</string>
+    <string name="donate_url" translatable="false">https://play.google.com/store/apps/details?id=de.ub0r.android.donator</string>
+    <string name="close">Closing the app</string>
+    <string name="close_summary">Swipe the notification away to close the app completely</string>
+
+</resources>
