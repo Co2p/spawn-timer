@@ -184,7 +184,7 @@ public class UpdateReceiver extends BroadcastReceiver {
 		long t;
 		PowerManager pm = (PowerManager) context
 				.getSystemService(Context.POWER_SERVICE);
-		if (pm.isScreenOn()) {
+		if (pm.isScreenOn()) { //isInteractive()
 			t = mNow + 1000L;
 		} else {
 			t = mNextTarget - mNow;

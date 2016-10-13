@@ -35,6 +35,8 @@ import android.widget.TextView;
 public class MainActivity extends Activity implements OnClickListener {
 	private static final String TAG = "portal-timer/ma";
 	public static final String INGRESS_PACKAGE = "com.nianticproject.ingress";
+	public static final String POKEMON_PACKAGE = "com.nianticlabs.pokemongo";
+
 
 	@SuppressLint("HandlerLeak")
 	private class UpdateHandler extends Handler {

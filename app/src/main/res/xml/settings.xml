@@ -20,7 +20,7 @@
         android:key="settings"
         android:title="@string/settings" >
         <SwitchPreference
-            android:defaultValue="false"
+            android:defaultValue="true"
             android:dependency="start_ingress"
             android:key="hide_app"
             android:summaryOff="@string/hide_app_summary_off"
@@ -33,6 +33,14 @@
             android:summaryOff="@string/start_ingress_summary_off"
             android:summaryOn="@string/start_ingress_summary_on"
             android:title="@string/start_ingress" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:disableDependentsState="true"
+            android:key="start_pokemon"
+            android:summaryOff="@string/start_pokemon_summary_off"
+            android:summaryOn="@string/start_pokemon_summary_on"
+            android:title="@string/start_pokemon" />
 
         <RingtonePreference
             android:defaultValue="content://settings/system/notification_sound"

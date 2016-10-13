@@ -34,6 +34,14 @@
             android:summaryOn="@string/start_ingress_summary_on"
             android:title="@string/start_ingress" />
 
+        <SwitchPreference
+            android:defaultValue="false"
+            android:disableDependentsState="true"
+            android:key="start_pokemon"
+            android:summaryOff="@string/start_pokemon_summary_off"
+            android:summaryOn="@string/start_pokemon_summary_on"
+            android:title="@string/start_pokemon" />
+
         <RingtonePreference
             android:defaultValue="content://settings/system/notification_sound"
             android:key="notification"

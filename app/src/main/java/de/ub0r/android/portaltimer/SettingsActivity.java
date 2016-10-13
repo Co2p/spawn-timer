@@ -33,15 +33,20 @@ public class SettingsActivity extends PreferenceActivity implements
 	@Override
 	protected void onCreate(final Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		setTheme(R.style.Theme);
 		addPreferencesFromResource(R.xml.settings);
 		addPreferencesFromResource(R.xml.cooldown);
 		addPreferencesFromResource(R.xml.additional);
 
-		boolean hasIngress = getPackageManager().getLaunchIntentForPackage(
-				MainActivity.INGRESS_PACKAGE) != null;
+		boolean hasIngress = getPackageManager().getLaunchIntentForPackage(MainActivity.INGRESS_PACKAGE) != null;
+		boolean hasPokemon = getPackageManager().getLaunchIntentForPackage(MainActivity.POKEMON_PACKAGE) != null;
+
 		if (!hasIngress) {
 			findPreference("start_ingress").setEnabled(false);
-			//findPreference("start_pokemon").setEnabled(false);
+			findPreference("hide_app").setDependency(null);
+		}
+		if (!hasPokemon) {
+			findPreference("start_pokemon").setEnabled(false);
 			findPreference("hide_app").setDependency(null);
 		}
 
