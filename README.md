@@ -10,7 +10,8 @@ It's a timer that sits in the notification tray, it's primarily targeted at Poke
 Planned and completed functionality:
 ------------------------------------------------------------
 - [x] Support for Pokemon Go
-- [x] Mostly material design.. I'll possibly look into notification actions 
+- [x] Mostly material design.. I'll possibly look into notification actions
+- [ ] Better handling of app autolaunch, maybe let user choose a app
 - [ ] Optimize depricated code
 - [ ] Optimize timer
 
