@@ -25,6 +25,7 @@
     <string name="help">Help</string>
     <string name="info">Info</string>
     <string name="start_ingress">Start Ingress</string>
+    <string name="start_pokemon">Start Pokemon Go</string>
     <string name="start_ingress_summary_on">Start Ingress automatically and hide this app</string>
     <string name="start_ingress_summary_off">Show this app</string>
     <string name="start_pokemon_summary_on">Start Pokemon Go automatically and hide this app</string>
@@ -55,13 +56,12 @@
     <string name="license_summary">GPLv3</string>
     <string name="license_url">http://www.gnu.org/licenses/gpl-3.0.txt</string>
     <string name="source">Source code</string>
-    <string name="source_url" translatable="false">https://github.com/felixb/portal-timer/</string>
+    <string name="source_url" translatable="false">https://github.com/Co2p/spawn-timer</string>
     <string name="more_apps">More apps</string>
     <string name="more_apps_summary">More apps from Felix Bechstein</string>
     <string name="donate">Donate</string>
     <string name="close">Closing the app</string>
     <string name="close_summary">Swipe the notification away to close the app completely</string>
-    <string name="start_pokemon">Start Pokemon Go</string>
 
 
 </resources>
