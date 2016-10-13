@@ -50,12 +50,9 @@
     <string name="license_summary">GPLv3</string>
     <string name="license_url">http://www.gnu.org/licenses/gpl-3.0.txt</string>
     <string name="source">Source code</string>
-    <string name="source_url" translatable="false">https://github.com/felixb/portal-timer/</string>
     <string name="more_apps">Mehr Apps</string>
     <string name="more_apps_summary">Mehr Apps von Felix Bechstein</string>
-    <string name="more_apps_url" translatable="false">https://play.google.com/store/apps/developer?id=Felix+Bechstein</string>
     <string name="donate">Spenden</string>
-    <string name="donate_url" translatable="false">https://play.google.com/store/apps/details?id=de.ub0r.android.donator</string>
     <string name="close">App schließen</string>
     <string name="close_summary">Notification wegswipen um die App komplett zu schließen</string>
 

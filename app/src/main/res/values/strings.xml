@@ -16,7 +16,7 @@
 -->
 <resources>
 
-    <string name="app_name">Portal Timer</string>
+    <string name="app_name">Spawn Timer</string>
     <string name="base_time" translatable="false">0:00</string>
     <string name="cooldown" translatable="false">5:00</string>
     <string name="start">Start</string>
@@ -58,9 +58,7 @@
     <string name="source_url" translatable="false">https://github.com/felixb/portal-timer/</string>
     <string name="more_apps">More apps</string>
     <string name="more_apps_summary">More apps from Felix Bechstein</string>
-    <string name="more_apps_url" translatable="false">https://play.google.com/store/apps/developer?id=Felix+Bechstein</string>
     <string name="donate">Donate</string>
-    <string name="donate_url" translatable="false">https://play.google.com/store/apps/details?id=de.ub0r.android.donator</string>
     <string name="close">Closing the app</string>
     <string name="close_summary">Swipe the notification away to close the app completely</string>
     <string name="start_pokemon">Start Pokemon Go</string>
